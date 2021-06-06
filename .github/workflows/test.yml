@@ -4,10 +4,12 @@ on:
     branches: 
       - feature
       - develop
+      - master
   pull_request:
     branches:
       - feature
       - develop
+      - master
 jobs:
   build:
     name: Build simple project
